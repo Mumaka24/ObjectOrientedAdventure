@@ -62,6 +62,8 @@
                 }
                 const entries = Object.entries(adventurer);
     
-                console.log(entries);
-
+                for (const [key,value] of entries) {
+                console.log(key);
+                console.log(value)
+                }
   
