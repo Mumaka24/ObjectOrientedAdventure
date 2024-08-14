@@ -37,7 +37,7 @@
            // console.log(values);//
 
            //
-           const adventurer = {
+          /* const adventurer = {
             name: "Robin",
             health: 10,
             inventory: ["sword", "potion", "artifact"],
@@ -49,4 +49,19 @@
             const entries = Object.entries(adventurer);
 
             console.log(entries);
+
+            /* looping over object*/
+            const adventurer = {
+                name: "Robin",
+                health: 10,
+                inventory: ["sword", "potion", "artifact"],
+                companion: {
+                 name: "Leo",
+                 type: "Cat"
+                }
+                }
+                const entries = Object.entries(adventurer);
+    
+                console.log(entries);
+
   
