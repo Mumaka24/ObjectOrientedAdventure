@@ -13,5 +13,5 @@ const adventurer = {
     health: 10,
     inventory: ["sword", "potion", "artifact"]
     }
-    const target = adventurer.inventory[0]
+    const target = adventurer["inventory"]
     console.log(target)
